@@ -6,7 +6,7 @@
 #' Using ST.mtx, one can create the Visium Seurat objetcs directly from the gene
 #' count matrix and Spatial transcriptomics images.
 #'
-#' @param Path Path to the SpaceRnager output directory and the project name
+#' @param Path Path to the SpaceRnager output directory which contains the filtered_feature_bc_matrix and spatial folders
 #' @param Name Name of the project
 #' @return A Visium Seurat object
 #' @export
